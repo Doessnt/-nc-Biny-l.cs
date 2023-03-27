@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\bin\Debug\02_degiskenler.exe.config
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\bin\Debug\02_degiskenler.exe
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\bin\Debug\02_degiskenler.pdb
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\obj\Debug\02_degiskenler.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\obj\Debug\02_degiskenler.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\obj\Debug\02_degiskenler.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\obj\Debug\02_degiskenler.exe
+C:\Users\202\Desktop\gitt\first_lesson\02_degiskenler\obj\Debug\02_degiskenler.pdb

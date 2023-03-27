@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\obj\Debug\first_lesson.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\obj\Debug\first_lesson.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\obj\Debug\first_lesson.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\bin\Debug\first_lesson.exe.config
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\bin\Debug\first_lesson.exe
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\bin\Debug\first_lesson.pdb
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\obj\Debug\first_lesson.exe
+C:\Users\202\Desktop\gitt\first_lesson\first_lesson\obj\Debug\first_lesson.pdb
