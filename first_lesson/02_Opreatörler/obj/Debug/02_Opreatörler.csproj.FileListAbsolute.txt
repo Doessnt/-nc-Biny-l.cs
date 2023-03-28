@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\bin\Debug\02_Opreatörler.exe.config
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\bin\Debug\02_Opreatörler.exe
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\bin\Debug\02_Opreatörler.pdb
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\obj\Debug\02_Opreatörler.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\obj\Debug\02_Opreatörler.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\obj\Debug\02_Opreatörler.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\obj\Debug\02_Opreatörler.exe
+C:\Users\202\Desktop\git\first_lesson\02_Opreatörler\obj\Debug\02_Opreatörler.pdb

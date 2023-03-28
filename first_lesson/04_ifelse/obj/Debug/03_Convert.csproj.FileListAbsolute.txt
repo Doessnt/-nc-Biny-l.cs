@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\bin\Debug\04_ifelse.exe.config
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\bin\Debug\04_ifelse.exe
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\bin\Debug\04_ifelse.pdb
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\obj\Debug\03_Convert.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\obj\Debug\03_Convert.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\obj\Debug\03_Convert.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\obj\Debug\04_ifelse.exe
+C:\Users\202\Desktop\git\first_lesson\04_ifelse\obj\Debug\04_ifelse.pdb

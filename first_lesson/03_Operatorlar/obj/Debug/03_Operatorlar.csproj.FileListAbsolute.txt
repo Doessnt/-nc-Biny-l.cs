@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\bin\Debug\03_Operatorlar.exe.config
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\bin\Debug\03_Operatorlar.exe
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\bin\Debug\03_Operatorlar.pdb
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\obj\Debug\03_Operatorlar.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\obj\Debug\03_Operatorlar.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\obj\Debug\03_Operatorlar.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\obj\Debug\03_Operatorlar.exe
+C:\Users\202\Desktop\git\first_lesson\03_Operatorlar\obj\Debug\03_Operatorlar.pdb

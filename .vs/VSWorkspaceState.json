@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\first_lesson",
+    "\\first_lesson\\03_Operatorlar"
   ],
+  "SelectedNode": "\\first_lesson\\03_Operatorlar\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
