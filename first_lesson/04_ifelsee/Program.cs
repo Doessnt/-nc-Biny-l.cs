@@ -151,22 +151,130 @@ namespace _04_ifelsee
             //    Console.WriteLine("ADAM AKILLI YAZ CANIMI SIKMA");
             //}
 
-            Console.Write("Verginiz için aylık kazancınızı giriniz (DEVLETİMİ SEVİYORUM VERGİMİ VERİYORUM)\n MADE by RTE\n>>>>");
-            int user_input = Convert.ToInt32(Console.ReadLine());
-            if (user_input > 4000)
+            //Console.Write("Verginiz için aylık kazancınızı giriniz (DEVLETİMİ SEVİYORUM VERGİMİ VERİYORUM)\n MADE by RTE\n>>>>");
+            //int user_input = Convert.ToInt32(Console.ReadLine());
+            //if (user_input > 4000)
+            //{
+            //    int resut = (user_input / 100) * 12;
+
+            //    Console.WriteLine("BEDEL ÖDENMİŞ HALİ EYW ENAYİ" + (user_input - resut));
+
+
+            //}
+            //else
+            //{
+
+            //    int resut = (user_input / 100) * 9;
+            //    Console.WriteLine("BEDEL ÖDENMİŞ HALİ EYW ENAYİ:" + (user_input - resut));
+
+            //}
+
+            //Console.WriteLine("Aldığınız 1.Eşyanın fiyatını giriniz");
+            //double user1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Aldığınız 1.Eşyanın fiyatını giriniz");
+            //double user2 = Convert.ToInt32(Console.ReadLine());
+            //if((user1 + user2) > 250)
+            //{
+            //    if(user1 > user2)
+            //    {
+            //        user2 = user2 * 0.75 ;
+            //        Console.WriteLine("İndirim aldınız şu anki fiyat" + (user1 +user2));
+            //    }
+            //    else if (user2 > user1)
+            //    {
+            //        user1 = user1 * 0.75;
+            //        Console.WriteLine("İndirimli fiyatınız" + (user1 + user2));
+            //    }
+
+            //}
+            //else
+            //{
+            //    Console.Write(user1 + user2);
+            //}
+
+            //Console.WriteLine("1.Sayı");
+            //int sayi1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("2.Sayı");
+            //int sayi2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("3.Sayı");
+            //int sayi3 = Convert.ToInt32(Console.ReadLine());
+
+            //int toplam = 0;
+            //if(sayi1%2 == 0)
+            //{
+            //    toplam = toplam + sayi1;
+            //}
+            //if (sayi2 %2 == 0)
+            //{
+            //    toplam = toplam + sayi2;
+            //}
+            //if (sayi3 % 2 == 0)
+            //{
+            //    toplam = toplam + sayi3;
+            //}
+            //Console.WriteLine(toplam);
+
+            Console.WriteLine("Lütfen Cinsiyetinizi giriniz\n>>>>");
+            string sex = Console.ReadLine().ToLower();
+            if(sex == "erkek")
             {
-                int resut = (user_input / 100) * 12;
+                Console.WriteLine("Yaşınızı giriniz\n>>>>");
+                int age =Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Maaş giriniz\n>>>>");
+                int maas = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Kaç gün çalıştığınızı giriniz giriniz\n>>>>");
+                int workday = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("BEDEL ÖDENMİŞ HALİ EYW ENAYİ" + (user_input - resut));
+                if (age > 60)
+                {
+                    Console.WriteLine("İkramiyeniz" + (maas * 10));
 
+                }
+                else
+                {
+                    if(workday >= 6000)
+                    {
+                        Console.WriteLine("İkramiyeniz" + (maas * 11));
 
+                    }
+                    else
+                    {
+                        Console.WriteLine("Fuck off");
+                    }
+
+                }
+                
             }
-            else
+            else if (sex == "kadın")
             {
-                int resut = (user_input / 100) * 9;
-                Console.WriteLine("BEDEL ÖDENMİŞ HALİ EYW ENAYİ" + (user_input - resut));
+                Console.WriteLine("Yaşınızı giriniz\n>>>>");
+                int age = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Maaş giriniz\n>>>>");
+                int maas = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Kaç gün çalıştığınızı giriniz giriniz\n>>>>");
+                int workday = Convert.ToInt32(Console.ReadLine());
+                if (age > 58)
+                {
+                    Console.WriteLine("İkramiyeniz" + (maas * 10));
 
+                }
+                else
+                {
+                    if (workday >= 5600)
+                    {
+                        Console.WriteLine("İkramiyeniz" + (maas * 11));
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Fuck off");
+                    }
+
+                }
             }
+
+
+
 
             Console.ReadKey();
         }

@@ -6,3 +6,11 @@ C:\Users\202\Desktop\git\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.csproj.Sug
 C:\Users\202\Desktop\git\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.csproj.CoreCompileInputs.cache
 C:\Users\202\Desktop\git\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.exe
 C:\Users\202\Desktop\git\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\bin\Debug\04_ifelsee.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\bin\Debug\04_ifelsee.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\bin\Debug\04_ifelsee.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\04_ifelsee\obj\Debug\04_ifelsee.pdb
