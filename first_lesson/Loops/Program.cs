@@ -101,32 +101,87 @@ namespace Loops
 
 
             //}
-            
-            
-            for (int i = 1; i <= 3; i++)
+
+
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    Console.WriteLine("Lütfen isim");
+            //    string user_name = Console.ReadLine().ToLower();
+            //    Console.WriteLine("PASSWORD");
+            //    string user_password = Console.ReadLine().ToLower();
+            //    int j = 3;
+            //    if (user_name == "admin" && user_password == "admin")
+            //    {
+            //        Console.WriteLine("Hoşgeldiniz");
+            //        break;
+            //    }
+            //    else if (i == 3) {
+            //        Console.WriteLine("FUCK OFF");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("YANLIŞ KALAN HAKKINIZ" + (j-i));
+            //    }
+
+            //}
+            /* DO WHILE 
+             int i = 0;
+            do
             {
-                Console.WriteLine("Lütfen isim");
-                string user_name = Console.ReadLine().ToLower();
-                Console.WriteLine("PASSWORD");
-                string user_password = Console.ReadLine().ToLower();
-                int j = 3;
-                if (user_name == "admin" && user_password == "admin")
-                {
-                    Console.WriteLine("Hoşgeldiniz");
-                    break;
-                }
-                else if (i == 3) {
-                    Console.WriteLine("FUCK OFF");
-                }
-                else
-                {
-                    Console.WriteLine("YANLIŞ KALAN HAKKINIZ" + (j-i));
-                }
-                
-            }
+                Console.WriteLine(i);
+                i++;
+            } while (i<10);*/
 
 
-            Console.ReadKey();
+            //int a = 0;
+            //do
+            //{
+            //    Console.Write("Number\n>>>>");
+            //    int i = Convert.ToInt32(Console.ReadLine());
+            //    a += i;
+
+
+            //    if (i == 0) { break; }
+            //    Console.WriteLine(i);
+
+            //} while (true);
+            //Console.WriteLine(a);
+
+            /* TRY CATCH*/
+            //try
+            //{
+
+            //    Console.WriteLine("Sayı");
+            //    int i = Convert.ToInt32(Console.ReadLine());
+            //}
+            //catch (Exception)
+            //{
+
+            //    Console.WriteLine("Fuck you");
+            //}
+
+            //Console.ReadKey();
+
+           
+            //int user = 0;
+            //int toplam = 0;
+            //do
+            //{
+            //    try
+            //    {
+            //        Console.Write("Sayı\n>>>>");
+            //        user = Convert.ToInt32(Console.ReadLine());
+            //        Console.WriteLine(user);
+            //        toplam += user;
+
+            //    }
+            //    catch (Exception)
+            //    {
+
+            //        Console.WriteLine("SAYI GİR BENİM CANIMI SIKMA!!!");
+            //    }
+            //} while (user != 0);
+
 
         }
     }
