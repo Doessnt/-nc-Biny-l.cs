@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\bin\Debug\Atm_system.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\bin\Debug\Atm_system.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\bin\Debug\Atm_system.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.pdb
