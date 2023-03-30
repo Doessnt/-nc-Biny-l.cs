@@ -1,6 +1,6 @@
 /*  
         //*******************Ana Menü 
-        Para Çekmek için    1
+        Para Çekmek için    1 
         Para yatırmak için  2
         Para Transferleri   3
         Eğitim Ödemeleri    4
