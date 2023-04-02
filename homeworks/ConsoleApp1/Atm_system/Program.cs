@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Atm_system
 {
@@ -14,6 +16,8 @@ namespace Atm_system
             // User's password
             int password = 35921;
             int bakiye = 250;
+            long tel = 05356723405;
+            long tc = 12950485554;
 
             string text = @"
                  ____       _______ _____ _  __  ____          _   _ _  __
@@ -44,6 +48,22 @@ namespace Atm_system
                 Başka Hesaba Havale 2
                 
                " + "\n>>>>";
+            string s5_fatura = @"
+            Elektrik Faturası       1
+            Telefon Faturası        2
+            İnternet faturası       3
+            Su Faturası             4
+            OGS Ödemeleri           5    
+            
+            ";
+            string s2_anamenü = @"
+            CepBank Para Çekmek 1
+            Para yatırmak için  2
+            Kredi Kartı Ödeme   3
+            Eğitim Ödemeleri    4
+            Ödemeler     
+            
+            "+"\n>>>>";
 
 
         atm_page:
@@ -134,8 +154,19 @@ namespace Atm_system
                     eft:
                         Console.Write("Lütfen EFT numarasını giriniz\n>>>>");
                         string user02 = Console.ReadLine();
+                        if(user02.Length < 12 ||  user02.Length > 12)
+                        {
+                            Console.WriteLine("EFT Numarası 12 haneden oluşur");
+                            goto eft;
+                        }
                         string tr = "TR"; // EFT Numarasının başına eklenecek olan ifade
                         user02 = tr + user02;
+                        string check = user02.ToString();
+                        if (check.Length > 12 || check.Length < 12)
+                        {
+                            Console.WriteLine("Lütfen hesap numarasını doğru giriniz");
+                            goto eft;
+                        }
                         Console.WriteLine("Girdiğiniz EFT numarası {0}",user02);
                         //Hesap numarası alındıktan sonra transfer edilicek para
                         Console.WriteLine("Lütfen yatırılacak parayı giriniz\n>>>>");
@@ -145,15 +176,27 @@ namespace Atm_system
                         {
                             bakiye = bakiye - user03;
                             Console.WriteLine("İşleminiz başarı ile gerçekleştirildi\nGüncel bakiyeniz {0}TL",bakiye);
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
                         }
 
 
                     }
                     else if(user01 == 2) // Havale (Bug fix numara kontrol + ana menüye dönüş)
                     {
+                    havale:
                         Console.Write("Lütfen hesap numarasını giriniz\n>>>>");
                         long user02 = Convert.ToInt64(Console.ReadLine());
-                     havale:
+                        string check = user02.ToString();
+                        if(check.Length > 11 || check.Length < 11)
+                        {
+                            Console.WriteLine("Lütfen hesap numarasını doğru giriniz");
+                            goto havale;
+                        }
+                        
+                     
                         Console.WriteLine("Lütfen yatırılacak parayı giriniz\n>>>>");
                         int user03 = Convert.ToInt32(Console.ReadLine());
                         if (user03 > bakiye) { goto havale ; }
@@ -161,12 +204,127 @@ namespace Atm_system
                         {
                             bakiye = bakiye - user03;
                             Console.WriteLine("İşleminiz başarı ile gerçekleştirildi\nGüncel bakiyeniz {0}TL", bakiye);
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
+
                         }
+
                     }
 
                 }// Para transferi
                 else if (user == 4) { Console.WriteLine("Malesef bu bölüm arızalı"); goto main_page; }
-                else if (user == 5) { }//Fatura ödemeleri
+                else if (user == 5) {//Fatura ödeme
+                    Console.WriteLine(s5_fatura);
+                    int user01 = Convert.ToInt32(Console.ReadLine());
+                elek_fatura:
+                    if (user01 == 1)
+                    {
+                        Console.WriteLine("Lütfen ödenecek tutarı giriniz\n>>>>");
+                        int user02 = Convert.ToInt32(Console.ReadLine());
+                        if (user02 > bakiye)
+                        {
+                            Console.WriteLine("Malesef bakiyeniz yetersiz");
+                            goto elek_fatura;
+                        }
+                        else
+                        {
+                            bakiye = bakiye - user02;
+                            Console.WriteLine("İşleminiz başarılı bir şekilde uygulandı şuan ki kalan bakiyeniz\n" + bakiye + "TL");
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
+                        }
+
+                    }
+                    else if (user01 == 2)
+                    {
+                    tel_fatura:
+                        Console.WriteLine("Lütfen ödenecek tutarı giriniz\n>>>>");
+                        int user02 = Convert.ToInt32(Console.ReadLine());
+                        if (user02 > bakiye)
+                        {
+                            Console.WriteLine("Malesef bakiyeniz yetersiz");
+                            goto tel_fatura;
+                        }
+                        else
+                        {
+                            bakiye = bakiye - user02;
+                            Console.WriteLine("İşleminiz başarılı bir şekilde uygulandı şuan ki kalan bakiyeniz\n" + bakiye + "TL");
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
+                        }
+
+                    }
+                    else if (user == 3)
+                    {
+                    net_fatura:
+                        Console.WriteLine("Lütfen ödenecek tutarı giriniz\n>>>>");
+                        int user02 = Convert.ToInt32(Console.ReadLine());
+                        if (user02 > bakiye)
+                        {
+                            Console.WriteLine("Malesef bakiyeniz yetersiz");
+                            goto net_fatura;
+                        }
+                        else
+                        {
+                            bakiye = bakiye - user02;
+                            Console.WriteLine("İşleminiz başarılı bir şekilde uygulandı şuan ki kalan bakiyeniz\n" + bakiye + "TL");
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
+                        }
+
+
+                    }
+                    else if (user == 4)
+                    {
+                    su_fatura:
+                        Console.WriteLine("Lütfen ödenecek tutarı giriniz\n>>>>");
+                        int user02 = Convert.ToInt32(Console.ReadLine());
+                        if (user02 > bakiye)
+                        {
+                            Console.WriteLine("Malesef bakiyeniz yetersiz");
+                            goto su_fatura;
+                        }
+                        else
+                        {
+                            bakiye = bakiye - user02;
+                            Console.WriteLine("İşleminiz başarılı bir şekilde uygulandı şuan ki kalan bakiyeniz\n" + bakiye + "TL");
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
+
+                        }
+
+                    }
+                    else if (user == 5)
+                    {
+                    ogs:
+                        Console.WriteLine("Lütfen ödenecek tutarı giriniz\n>>>>");
+                        int user02 = Convert.ToInt32(Console.ReadLine());
+                        if (user02 > bakiye)
+                        {
+                            Console.WriteLine("Malesef bakiyeniz yetersiz");
+                            goto ogs;
+                        }
+                        else
+                        {
+                            bakiye = bakiye - user02;
+                            Console.WriteLine("İşleminiz başarılı bir şekilde uygulandı şuan ki kalan bakiyeniz\n" + bakiye + "TL");
+                            Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+                            char yn = Convert.ToChar(Console.ReadLine().ToLower());
+                            if (yn == 'y') { goto main_page; }
+                            Environment.Exit('n');
+                        }
+                    }
+                }//Fatura ödemeleri
                 else if (user == 6) // Şifre değiştirme Ana menüye dönme.
                 {
                     Console.Write("Lütfen Yeni şifrenizi giriniz\n>>>>");
@@ -177,7 +335,49 @@ namespace Atm_system
 
                 }
             }
-            else if (atm == 2) { } // kartsız işlemler
+            else if (atm == 2) {
+                Console.Write(s2_anamenü);
+                int user = Convert.ToInt32(Console.ReadLine());
+                if(user == 1)//CepBank Paraçekme
+                {
+                ceppara:
+                    Console.Write("Lütfen Tc NO giriniz\n>>>>");
+                    long user01 = Convert.ToInt64(Console.ReadLine());
+                    Console.Write("Lütfen Tel no giriniz\n>>>>");
+                    long user_tel = Convert.ToInt64(Console.ReadLine());
+                    string check_tel = user_tel.ToString();
+                    string check = user01.ToString();
+                    int have = 0;
+                    while (have <= 3)
+                    {
+                        Console.WriteLine("Lütfen tel giriniz\n>>>>");
+                        if (user_tel == tel) { break; }
+                        else if (have == 3) { Console.WriteLine("Hakkınız kalmadı ana menüye gidiyorsunuz"); goto ceppara; }
+                        else { have++; }
+                    }
+                    if (check.Length > 12 || check.Length < 12)
+                    {
+                        Console.WriteLine("Lütfen Tc numarasını doğru giriniz");
+                        goto ceppara;
+                    }
+                    if (check_tel.Length > 11 || check_tel.Length < 11)
+                    {
+                        Console.WriteLine("Lütfen Tel numarasını doğru giriniz");
+                        goto ceppara;
+                    }
+                    else { if (user_tel == tel && user01 == tc) {
+                            bakiye = bakiye + 1000;
+                            Console.WriteLine("Şuanki güncel bakiyeniz {0}", bakiye);
+
+
+                        } }
+                  
+                    
+
+
+                }            
+
+            } // kartsız işlemler
             else { Environment.Exit(0); }
 
             Console.ReadLine();

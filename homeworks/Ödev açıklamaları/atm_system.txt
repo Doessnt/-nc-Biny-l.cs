@@ -129,3 +129,10 @@ Hesap numarasını girsin
         fatura tutarı istenir, hesap uygun ise yatırılır değilse
 
         */
+
+       bakiye = bakiye - user01;
+       Console.WriteLine("İşleminiz başarılı bir şekilde uygulandı şuan ki kalan bakiyeniz\n" + bakiye + "TL");
+       Console.WriteLine("Başka bir işlem yapmak istermisiniz ? Y/N");
+       char yn = Convert.ToChar(Console.ReadLine().ToLower());
+        if (yn == 'y') { goto main_page; }
+        Environment.Exit('n');                                                                                                       

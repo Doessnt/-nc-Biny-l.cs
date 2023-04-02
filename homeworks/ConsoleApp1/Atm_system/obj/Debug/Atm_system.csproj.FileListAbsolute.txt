@@ -14,3 +14,11 @@ C:\Users\BsRzz\OneDrive\Masaüstü\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_sys
 C:\Users\BsRzz\OneDrive\Masaüstü\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.CoreCompileInputs.cache
 C:\Users\BsRzz\OneDrive\Masaüstü\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.exe
 C:\Users\BsRzz\OneDrive\Masaüstü\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.pdb
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\bin\Debug\Atm_system.exe.config
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\bin\Debug\Atm_system.exe
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\bin\Debug\Atm_system.pdb
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.AssemblyReference.cache
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.SuggestedBindingRedirects.cache
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.csproj.CoreCompileInputs.cache
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.exe
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\Atm_system\obj\Debug\Atm_system.pdb
