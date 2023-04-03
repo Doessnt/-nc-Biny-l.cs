@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\bin\Debug\otomat.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\bin\Debug\otomat.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\bin\Debug\otomat.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\obj\Debug\otomat.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\obj\Debug\otomat.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\obj\Debug\otomat.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\obj\Debug\otomat.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\otomat\obj\Debug\otomat.pdb
