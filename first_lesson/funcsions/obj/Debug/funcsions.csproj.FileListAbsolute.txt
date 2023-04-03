@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\bin\Debug\funcsions.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\bin\Debug\funcsions.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\bin\Debug\funcsions.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\obj\Debug\funcsions.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\obj\Debug\funcsions.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\obj\Debug\funcsions.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\obj\Debug\funcsions.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\funcsions\obj\Debug\funcsions.pdb
