@@ -1,6 +1,6 @@
 import os 
 import time
-
+import shutdown
 def git_configer(user_name = "Hpcodecraftt", user_email="hpcodecraftt@gmail.com"):
     try:
         os.system(f'git config --global user.name "{user_name}"')
@@ -20,9 +20,6 @@ def git_configer(user_name = "Hpcodecraftt", user_email="hpcodecraftt@gmail.com"
         
     except:
         print("Bir hata oluştu")
-
-
-
 
 
 
@@ -56,7 +53,23 @@ def main_script():
         """))
         if user == 1:
             git_configer()
-            break
+            user01 = input("Cmoomit ? y/n\n>>>>")   
+            user01.lower()
+            if user01 == 'y':
+                git_commit()
+                user02 = input("Shuts down ? y/n\n>>>>")
+                if user02 == 'y':
+                    shutdown.shutdown()
+                else:
+                    break
+            else:
+                user02 = input("Shuts down ? y/n\n>>>>")
+                if user02 == 'y':
+                    shutdown.shutdown()
+                else:
+                    break
+                break
+                
         elif user == 2:
             git_commit()
             break
