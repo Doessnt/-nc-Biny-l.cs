@@ -8,12 +8,25 @@ namespace CLASS
 {
     internal class matematik
     {
-        internal static void toplama()
+        public static int toplama(int user, int user2)
         {
-            Console.WriteLine("1.sayı");
-            int user = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("2.sayı");
-            int user2 = Convert.ToInt32(Console.ReadLine());
+            
+            return (user + user2);
+        }
+        public static int Çıkarma(int user, int user2)
+        {
+            
+            return (user - user2);
+        }
+        public static int Bölme(int user, int user2)
+        {
+          
+            return (user / user2);
+        }
+        public static int Çarpma(int user, int user2)
+        {
+            
+            return (user * user2);
         }
     }
 }

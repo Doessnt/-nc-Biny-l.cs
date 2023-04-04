@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\bin\Debug\CLASS.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\bin\Debug\CLASS.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\bin\Debug\CLASS.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\obj\Debug\CLASS.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\obj\Debug\CLASS.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\obj\Debug\CLASS.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\obj\Debug\CLASS.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\CLASS\obj\Debug\CLASS.pdb

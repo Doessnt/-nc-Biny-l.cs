@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm_system", "Atm_system\At
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "otomat", "otomat\otomat.csproj", "{47C77A40-04D6-4C35-908B-096360B1FB04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manavcı", "manavcı\manavcı.csproj", "{3FC6364C-3CF8-4CCA-9739-9921E476F0AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{47C77A40-04D6-4C35-908B-096360B1FB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47C77A40-04D6-4C35-908B-096360B1FB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47C77A40-04D6-4C35-908B-096360B1FB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC6364C-3CF8-4CCA-9739-9921E476F0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC6364C-3CF8-4CCA-9739-9921E476F0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC6364C-3CF8-4CCA-9739-9921E476F0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC6364C-3CF8-4CCA-9739-9921E476F0AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

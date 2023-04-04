@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\bin\Debug\liste.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\bin\Debug\liste.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\bin\Debug\liste.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\obj\Debug\liste.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\obj\Debug\liste.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\obj\Debug\liste.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\obj\Debug\liste.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\liste\obj\Debug\liste.pdb
