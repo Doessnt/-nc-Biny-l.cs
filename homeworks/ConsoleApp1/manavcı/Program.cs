@@ -19,7 +19,8 @@ namespace manavcı
                 meyvemi sebzemi 
                     kilo girilincek ve alınıcak 
              */
-           
+            Han.han_menu();
+            
 
         }
     }

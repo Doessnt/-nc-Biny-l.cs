@@ -24,17 +24,49 @@ namespace liste
             //{
             //    Console.WriteLine(item);
             //}
-            ArrayList arr = new ArrayList();
+            //ArrayList arr = new ArrayList();
             
-            Random r = new Random();
-            for (int i = 0; i <= 10; i++)
-            {
-                arr.Add(r.Next(1, 10));
-            }
-            foreach (var item in arr)
-            {
-                Console.WriteLine(item);
-            }
+            //Random r = new Random();
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    arr.Add(r.Next(1, 10));
+            //}
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            List<string> list = new List<string>();
+            //for (int i = 0; i < 10; i++)
+            //{
+
+            //   Console.WriteLine("ISIM");
+            //   string j = Console.ReadLine();
+            //    if (j == "cık") { break; }
+
+            //    list.Add(j);
+            //   Console.WriteLine(list[i]);
+            //}
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    Console.WriteLine(list[i]);
+            //}
+            //Console.WriteLine("Kaç personeliniz var ?\n>>>>");
+            //int k = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 0; i <= k; i++)
+            //{
+            //    string j = Console.ReadLine();
+            //    list.Add(j);
+
+            //}
+            //for (int i = 0; i <list.Count; i++)
+            //{
+            //    Console.WriteLine(list);
+            //}
+
+
+
 
             Console.ReadKey();
         }

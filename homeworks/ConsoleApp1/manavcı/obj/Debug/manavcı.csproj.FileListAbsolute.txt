@@ -1,0 +1,8 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\bin\Debug\manavcı.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\bin\Debug\manavcı.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\bin\Debug\manavcı.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\obj\Debug\manavcı.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\obj\Debug\manavcı.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\obj\Debug\manavcı.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\obj\Debug\manavcı.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\homeworks\ConsoleApp1\manavcı\obj\Debug\manavcı.pdb
