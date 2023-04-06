@@ -112,12 +112,28 @@ namespace OPP
 
             //Ogrenci.print_list(students);
                         
-            List<Teacher> list = new List<Teacher>();
-            Teacher.Kayıt(list);
-            Teacher.write(list);
-            Teacher.Kayıt(list);
-            Teacher.delete(list);
+            List<Car> list = new List<Car>();
+            Car car = new Car();
+            while (true)
+            {
+                Console.WriteLine("1-Kayıt\n2-Güncelle\n3-Sil\n4-Çıkış");
+                int user = Convert.ToInt32(Console.ReadLine());
+                if (user == 1)
+                {
+                    Car.Ekle(list);
+                    break;
+                }
+                else if (user == 2)
+                {
+                    Car.Update(list); break;
+                }
+                else if (user == 3)
+                {
+                    Car.delete(list);
+                }
+                else { }
 
+            }
 
 
             Console.ReadKey();

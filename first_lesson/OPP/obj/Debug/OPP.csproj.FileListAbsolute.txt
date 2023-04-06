@@ -6,3 +6,11 @@ C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.csproj.Sugge
 C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.csproj.CoreCompileInputs.cache
 C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.exe
 C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.pdb
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\bin\Debug\OPP.exe.config
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\bin\Debug\OPP.exe
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\bin\Debug\OPP.pdb
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.csproj.AssemblyReference.cache
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.csproj.SuggestedBindingRedirects.cache
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.csproj.CoreCompileInputs.cache
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.exe
+C:\Users\BsRzz\Desktop\UcuncuBinyil.cs\first_lesson\OPP\obj\Debug\OPP.pdb
