@@ -1,0 +1,11 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\bin\Debug\Windows_Form2.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\bin\Debug\Windows_Form2.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\bin\Debug\Windows_Form2.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.Form1.resources
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.Properties.Resources.resources
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.csproj.GenerateResource.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\first_lesson\Windows_Form2\obj\Debug\Windows_Form2.pdb
