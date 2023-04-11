@@ -1,0 +1,12 @@
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\bin\Debug\Shut The Box.exe.config
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\bin\Debug\Shut The Box.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\bin\Debug\Shut The Box.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.csproj.AssemblyReference.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.csproj.SuggestedBindingRedirects.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut_The_Box.Form1.resources
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut_The_Box.Properties.Resources.resources
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.csproj.GenerateResource.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.csproj.CoreCompileInputs.cache
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.exe
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.pdb
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut_The_Box.Login.resources
