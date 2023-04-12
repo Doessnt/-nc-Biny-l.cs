@@ -40,6 +40,7 @@ namespace Shut_The_Box
             // Random 2 zar atıyor
             Mechnic.dice_roll(Dice_1, Dıce2);
             dice_total.Text = Convert.ToString(total);
+           
             
 
         }
@@ -50,35 +51,34 @@ namespace Shut_The_Box
 
             Mechnic.game_mechanic(btn_1, error,dice_total);
 
-            Mechnic.turn_red(btn_1);
+            
 
         }
 
         private void btn_2_Click(object sender, EventArgs e)
         {
             Mechnic.game_mechanic(btn_2, error, dice_total);
-            Mechnic.turn_red(btn_2);
-
+            
         }
 
         private void btn_3_Click(object sender, EventArgs e)
         {
             Mechnic.game_mechanic(btn_3, error, dice_total);
-            Mechnic.turn_red(btn_3);
+           
         }
 
         private void btn_4_Click(object sender, EventArgs e)
         {
             Mechnic.game_mechanic(btn_4, error, dice_total);
 
-            Mechnic.turn_red(btn_4);
+            
         }
 
         private void btn_5_Click(object sender, EventArgs e)
         {
             Mechnic.game_mechanic(btn_5, error, dice_total);
 
-            Mechnic.turn_red(btn_5);
+            
 
 
         }
@@ -87,7 +87,7 @@ namespace Shut_The_Box
         {
             Mechnic.game_mechanic(btn_6, error, dice_total);
 
-            Mechnic.turn_red(btn_6);
+            
 
         }
 
@@ -95,7 +95,7 @@ namespace Shut_The_Box
         {
             Mechnic.game_mechanic(btn_7, error, dice_total);
 
-            Mechnic.turn_red(btn_7);
+            
 
         }
 
@@ -103,7 +103,7 @@ namespace Shut_The_Box
         {
             Mechnic.game_mechanic(btn_8, error, dice_total);
 
-            Mechnic.turn_red(btn_8);
+            
 
         }
 
@@ -111,7 +111,7 @@ namespace Shut_The_Box
         {
             Mechnic.game_mechanic(btn_9l, error, dice_total);
 
-            Mechnic.turn_red(btn_9l);
+            
 
 
         }

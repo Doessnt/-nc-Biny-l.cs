@@ -32,8 +32,8 @@ namespace Shut_The_Box
            //Butona basıldıktan sonra eğer eksikse yazı döndürülücek
            if(number_of_button > Form1.total)
             {
-                error.Text = "Yeterli sayınız yok";
-                button.BackColor = Color.White;
+                MessageBox.Show("Yeterli sayınız yok");
+                button.BackColor = Color.White; //Burdali button rakamların olduğu buttonları temsil ediyor.
                
             }
             else if(Form1.total == 0)
@@ -48,15 +48,8 @@ namespace Shut_The_Box
 
             }
 
-           
-           
+
         }
-
-
-
-
-
-
         public static void turn_red(Button btn)
         {
             btn.BackColor = Color.Red;
