@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
-
+using System.IO;
 namespace Shut_The_Box
 {
     internal class Mechnic
     {
+
         public static int number_of_button;
         public static void dice_roll(Label dice1, Label dice2)
         {
@@ -21,24 +22,19 @@ namespace Shut_The_Box
             Form1.total = random + random2;
         }
 
-
-
-
-
-
-        public static void game_mechanic(Button button, Label error, Label dice_total)
+        public static void game_mechanic(Button button, Label dice_total)
         {
-           number_of_button = Convert.ToInt32(button.Text); 
-           //Butona basıldıktan sonra eğer eksikse yazı döndürülücek
-           if(number_of_button > Form1.total)
+            number_of_button = Convert.ToInt32(button.Text);
+            //Butona basıldıktan sonra eğer eksikse yazı döndürülücek
+            if (number_of_button > Form1.total)
             {
                 MessageBox.Show("Yeterli sayınız yok");
                 button.BackColor = Color.White; //Burdali button rakamların olduğu buttonları temsil ediyor.
-               
+
             }
-            else if(Form1.total == 0)
+            else if (Form1.total == 0)
             {
-                error.Text = "YOU WON";
+                MessageBox.Show("YOU WON");
             }
             else // Eksik değil ise kırmızıya dönüştürüp totalden düşücek
             {
@@ -62,7 +58,24 @@ namespace Shut_The_Box
             btn.Enabled = true;
 
         }
+        public static void score_keaper (ListBox listBox1){
+            Form1.score = 0;
+            foreach (int item in Form1.scorelist) { Form1.score += item; }
+            using (StreamReader sr = new StreamReader(UsersNickLogin.db))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    // Metin kutusuna okunan satırı yazdırın
+                   listBox1.Items.Add(line + Environment.NewLine);
+                }
+                
+            }
 
+            listBox1.Items.Add(Form1.score);
+            Form1.scorelist = Form1.scorelist_db;
+        }
+        
 
     }
 }

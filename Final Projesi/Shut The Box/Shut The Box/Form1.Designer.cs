@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btn_1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
@@ -43,8 +44,9 @@
             this.Dice_1 = new System.Windows.Forms.Label();
             this.Dıce2 = new System.Windows.Forms.Label();
             this.dice_total = new System.Windows.Forms.Label();
-            this.error = new System.Windows.Forms.Label();
             this.finish_step = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_1
@@ -161,8 +163,6 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "Player\'s"});
             this.listBox1.Location = new System.Drawing.Point(925, 239);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(151, 199);
@@ -172,7 +172,7 @@
             // 
             this.Dice_1.AutoSize = true;
             this.Dice_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Dice_1.Location = new System.Drawing.Point(406, 255);
+            this.Dice_1.Location = new System.Drawing.Point(450, 259);
             this.Dice_1.Name = "Dice_1";
             this.Dice_1.Size = new System.Drawing.Size(0, 42);
             this.Dice_1.TabIndex = 11;
@@ -181,7 +181,7 @@
             // 
             this.Dıce2.AutoSize = true;
             this.Dıce2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Dıce2.Location = new System.Drawing.Point(551, 255);
+            this.Dıce2.Location = new System.Drawing.Point(595, 259);
             this.Dıce2.Name = "Dıce2";
             this.Dıce2.Size = new System.Drawing.Size(0, 42);
             this.Dıce2.TabIndex = 12;
@@ -190,20 +190,10 @@
             // 
             this.dice_total.AutoSize = true;
             this.dice_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dice_total.Location = new System.Drawing.Point(487, 365);
+            this.dice_total.Location = new System.Drawing.Point(531, 369);
             this.dice_total.Name = "dice_total";
             this.dice_total.Size = new System.Drawing.Size(0, 16);
             this.dice_total.TabIndex = 13;
-            // 
-            // error
-            // 
-            this.error.AutoSize = true;
-            this.error.BackColor = System.Drawing.Color.Red;
-            this.error.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.error.Location = new System.Drawing.Point(466, 214);
-            this.error.Name = "error";
-            this.error.Size = new System.Drawing.Size(0, 24);
-            this.error.TabIndex = 14;
             // 
             // finish_step
             // 
@@ -216,14 +206,28 @@
             this.finish_step.UseVisualStyleBackColor = true;
             this.finish_step.Click += new System.EventHandler(this.finish_step_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(484, 181);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 18);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "timee";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(1088, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.finish_step);
-            this.Controls.Add(this.error);
             this.Controls.Add(this.dice_total);
             this.Controls.Add(this.Dıce2);
             this.Controls.Add(this.Dice_1);
@@ -241,6 +245,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Shut The Box";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,8 +267,9 @@
         public System.Windows.Forms.Label Dice_1;
         public System.Windows.Forms.Label Dıce2;
         public System.Windows.Forms.Label dice_total;
-        public System.Windows.Forms.Label error;
         private System.Windows.Forms.Button finish_step;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

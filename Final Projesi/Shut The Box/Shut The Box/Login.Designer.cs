@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UsersNickLogin));
             this.label1 = new System.Windows.Forms.Label();
             this.SinglePlayer = new System.Windows.Forms.Button();
             this.multi = new System.Windows.Forms.Button();

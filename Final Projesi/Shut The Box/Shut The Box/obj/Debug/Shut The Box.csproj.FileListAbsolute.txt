@@ -10,3 +10,4 @@ C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj
 C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.exe
 C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut The Box.pdb
 C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut_The_Box.Login.resources
+C:\Users\202\Desktop\UcuncuBinyil.cs\Final Projesi\Shut The Box\Shut The Box\obj\Debug\Shut_The_Box.UsersNickLogin.resources

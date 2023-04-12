@@ -19,7 +19,7 @@ namespace Shut_The_Box
 
         private void SinglePlayer_Click(object sender, EventArgs e)
         {
-            Form1 single_player = new Form1();
+            UsersNickLogin single_player = new UsersNickLogin();
             single_player.Show();
             this.Hide();
 
